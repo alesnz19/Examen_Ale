@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85117a27-520e-409a-a11c-3b97386c1e0b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1ZY4o8wtg66A1fpjBdGJRU6RQHL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/accounts" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AlejandraSanchezTrin\Documents\Proyectos\ExamenFront\app\views\accounts" />
+      <recent name="C:\Users\AlejandraSanchezTrin\Documents\Proyectos\ExamenFront\config\locales" />
+      <recent name="C:\Users\AlejandraSanchezTrin\Documents\Proyectos\ExamenFront\app\views\clients" />
+      <recent name="C:\Users\AlejandraSanchezTrin\Documents\Proyectos\ExamenFront\app\assets\javascripts" />
+      <recent name="C:\Users\AlejandraSanchezTrin\Documents\Proyectos\ExamenFront\public\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rails.Development: ExamenFront">
+    <configuration name="Development: ExamenFront" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="ExamenFront" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: ExamenFront" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="ExamenFront" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: ExamenFront" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="ExamenFront" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: ExamenFront" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="ExamenFront" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85117a27-520e-409a-a11c-3b97386c1e0b" name="Default Changelist" comment="" />
+      <created>1585002865749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585002865749</updated>
+      <workItem from="1585002867975" duration="63946000" />
+      <workItem from="1585239979563" duration="1504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585152133478">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state x="414" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.728@0.0.1368.728" timestamp="1585152133478" />
+    <state width="1325" height="263" key="GridCell.Tab.0.bottom" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.0.bottom/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state width="1325" height="263" key="GridCell.Tab.0.center" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.0.center/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state width="1325" height="263" key="GridCell.Tab.0.left" timestamp="1585240244480">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.0.left/0.0.1368.728@0.0.1368.728" timestamp="1585240244480" />
+    <state width="1325" height="263" key="GridCell.Tab.0.right" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.0.right/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state width="1325" height="263" key="GridCell.Tab.1.bottom" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.1.bottom/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state width="1325" height="263" key="GridCell.Tab.1.center" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.1.center/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state width="1325" height="263" key="GridCell.Tab.1.left" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.1.left/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state width="1325" height="263" key="GridCell.Tab.1.right" timestamp="1585240244481">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state width="1325" height="263" key="GridCell.Tab.1.right/0.0.1368.728@0.0.1368.728" timestamp="1585240244481" />
+    <state x="92" y="92" width="1184" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585162543436">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state x="92" y="92" width="1184" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1368.728@0.0.1368.728" timestamp="1585162543436" />
+    <state x="370" y="80" width="627" height="568" key="find.popup" timestamp="1585236603018">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state x="370" y="80" width="627" height="568" key="find.popup/0.0.1368.728@0.0.1368.728" timestamp="1585236603018" />
+    <state x="347" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585178325389">
+      <screen x="0" y="0" width="1368" height="728" />
+    </state>
+    <state x="347" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1368.728@0.0.1368.728" timestamp="1585178325389" />
+  </component>
+</project>

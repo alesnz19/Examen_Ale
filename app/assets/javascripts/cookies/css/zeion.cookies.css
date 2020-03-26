@@ -1,0 +1,36 @@
+﻿/**
+ * Zeion Software
+ * Hoja de estilo para el contenedor de cookies.
+ * 
+ * uid:		eferron
+ * fecha:	16.05.2013
+ */
+
+.cookieContainer
+{
+	padding: 10px;
+	background: #f0f0f0;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.cookieContainer button
+{
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #eee;
+}
+.cookieContainer button:hover,
+.cookieContainer button:focus,
+.cookieContainer button:active
+{
+	border-color: #f8f8f8;
+	box-shadow: 0 0 7px #ccc;
+}
+.cookieContainer button:hover
+{
+	cursor: pointer;
+}

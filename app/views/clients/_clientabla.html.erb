@@ -1,0 +1,93 @@
+<%# <%********************* Sweetalert No Results *************************** %>
+<% if @error.present? %>
+  <script>
+      swal({
+          title: "Advertencia", text: "No se encontraron resultados", type: "warning"
+      });
+  </script>
+<% end %>
+<%# <%********************** Paginacion & Boton Crear *******************************%>
+<div class="row">
+  <div class="col-xs-12 col-md-4">
+    <%= link_to '<span class="fa fa-user"></span> '.html_safe + 'Nuevo', new_client_path, :class => 'btn btn-primary btn-xs btx' %>
+  </div>
+  <div class="col-xs-12 col-md-8 form-group" align="right">
+    <div class="detall_right">
+      <% if @clients.length == 1 %>
+        <%= page_entries_info @clients, entry_name: "Cliente" %>
+      <% else %>
+        <%= page_entries_info @clients, entry_name: "Cliente".pluralize() %>
+      <% end %>
+    </div>
+    <div class="pag_right">
+      <%= paginate @clients, :theme => 'twitter-bootstrap-3', :pagination_class => "pagination-sm", :remote => true %>
+    </div>
+  </div>
+</div>
+
+<%# <%********************** Tabla Clientes *******************************%>
+<div id="tabla_clientes" style="overflow: auto;">
+  <table class="table footable no-paging">
+    <thead>
+    <tr>
+      <th class="text-left" data-sort-ignore="true">Nombre</th>
+      <th class="text-center" data-sort-ignore="true">Apellido paterno</th>
+      <th class="text-center" data-sort-ignore="true">Apellido materno</th>
+      <td class="text-center" data-sort-ignore="true">Total Cuentas</td>
+      <th class="text-center" data-sort-ignore="true" data-hide="phone">Mostrar</th>
+      <th class="text-center" data-sort-ignore="true" data-hide="phone">Editar</th>
+      <th class="text-center" data-sort-ignore="true" data-hide="phone">Eliminar</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @clients.each do |client| %>
+      <tr class="footable-even">
+        <td class="text-left"><%= client.Nombre %></td>
+        <td class="text-center"><%= client.Apellido_Paterno %></td>
+        <td class="text-center"><%= client.Apellido_Materno %></td>
+        <td class="text-center">
+          <% if client.accounts.present? %>
+              <% if client.accounts.count > 0 %>
+                  <%=client.accounts.count%>
+            <% else %>
+              0
+            <%end%>
+          <% else %>
+            0
+          <%end%>
+        </td>
+        <td class="text-center" ><%= link_to '<i class="fa fa-file-text"></i>'.html_safe, client, class:"btn btn-xs btn-primary btx", :data =>{toggle:"tooltip"}, title: "Mostrar"  %></td>
+        <td class="text-center"><%= link_to '<i class="fa fa-pencil"></i>'.html_safe, edit_client_path(client) , class:"btn btn-xs btn-warning btx", :data =>{toggle:"tooltip"}, title:"Editar"%></td>
+        <td class="text-center">
+          <button class="btn btn-danger btn-xs  clients" type="button" id="<%= client.id %>" data-toggle="tooltip" title="Eliminar">
+            <i class="fa fa-trash-o"></i>
+          </button>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+<%# <%********************** Tabla Clientes *******************************%>
+<%# <%********************** Paginacion & Boton Crear *******************************%>
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <%= link_to '<span class="fa fa-user"></span> '.html_safe + 'Nuevo', new_client_path, :class => 'btn btn-primary btn-xs btx' %>
+    </div>
+    <div class="col-xs-12 col-md-8 form-group" align="right">
+      <div class="detall_right">
+        <% if @clients.length == 1 %>
+          <%= page_entries_info @clients, entry_name: "Cliente" %>
+        <% else %>
+          <%= page_entries_info @clients, entry_name: "Cliente".pluralize() %>
+        <% end %>
+      </div>
+      <div class="pag_right">
+        <%= paginate @clients, :theme => 'twitter-bootstrap-3', :pagination_class => "pagination-sm", :remote => true %>
+      </div>
+    </div>
+  </div>
+
+
+
+

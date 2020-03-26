@@ -1,0 +1,166 @@
+<%= form_for @client, :html => {:id => 'form1'} do |f| %>
+  <% if client.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(client.errors.count, "error") %> prohibited this client from being saved:</h2>
+
+      <ul>
+        <% client.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="row">
+    <div class="col-xs-2 col-lg-2"></div>
+    <div class="col-xs-6 col-lg-7">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="field">
+            <p class="text-center">
+              <label>Nombre</label>
+              <%= f.text_field :Nombre, class: 'form-control', autocomplete: 'off', style: "text-transform:uppercase", placeholder: " Nombre", :id => "name", :maxlength => 255, :required => true %>
+              <small id="labname" style="display: none;">.</small>
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="field">
+            <p class="text-center">
+              <label>Apellido Paterno</label>
+              <%= f.text_field :Apellido_Paterno, class: 'form-control', autocomplete: 'off', style: "text-transform:uppercase", placeholder: " Apellido Paterno", :id => "ap", :maxlength => 255, :required => true %>
+              <small id="labap" style="display: none;">.</small>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-6">
+        <div class="field">
+          <p class="text-center">
+            <label>Apellido Materno</label>
+            <%= f.text_field :Apellido_Materno, class: 'form-control', autocomplete: 'off', style: "text-transform:uppercase", placeholder: " Apellido Materno", :id => "am", :maxlength => 255, :required => true %>
+            <small id="labam" style="display: none;">.</small>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col-xs-6">
+        <div class="field" id="dato_1">
+          <p class="text-center">
+            <label> Edad</label>
+          <div class="input-group date">
+            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+            <%= f.text_field :Edad, class: "form-control", :placeholder => "MM/DD/YYYY", :autocomplete => "off", :id => "age", :name => 'age' , :required => true %>
+          </div>
+          <small id="labage" style="display: none;">.</small>
+          <font color="#8b0000"><label id="errorBirth" style="display: none;"></label></font>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col-xs-6">
+        <div class="field">
+          <div align="center" class="form-group">
+            <label>Telefono</label>
+            <%= f.text_field :Telefono,  class: "form-control", autocomplete: "off", name: "phone", id: "phon", placeholder: "(55) 99-99-99-99", :maxlength => 10   %>
+            <small id="labphon" style="display: none;">.</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="field">
+          <div align="center" class="form-group">
+            <label>Calle</label>
+            <%= f.text_field :Calle, class: 'form-control', autocomplete: 'off', placeholder: " Calle", :id => "add", :maxlength => 255 , :required => true %>
+            <small id="labadd" style="display: none;">.</small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-6">
+        <div class="field">
+          <div align="center" class="form-group">
+            <label>Colonia</label>
+            <%= f.text_field :Colonia, class: 'form-control', autocomplete: 'off', placeholder: " Colonia", :id => "col", :maxlength => 255, :required => true  %>
+            <small id="labcol" style="display: none;">.</small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-6">
+        <div class="field">
+          <div align="center" class="form-group">
+            <label>Número de Casa</label>
+            <%= f.text_field :Numero_De_Casa, class: 'form-control', autocomplete: 'off', placeholder: " Número de Casa", :id => "casa", :maxlength => 3, :required => true %>
+            <small id="labcasa" style="display: none;">.</small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-6">
+        <div class="field">
+          <div align="center" class="form-group">
+            <label>Municipio</label>
+            <%= f.text_field :Municipio, class: 'form-control', autocomplete: 'off', placeholder: " Municipio", :id => "mun", :maxlength => 255, :required => true  %>
+            <small id="labmun" style="display: none;">.</small>
+          </div>
+        </div>
+      </div>
+
+      <!--            <div class="actions">-->
+      <%#= f.submit %>
+      <!--            </div>-->
+      <div class="col-xs-12 hr-line-dashed"></div>
+      <div class="col-xs-12">
+        <div class="actions">
+          <button type="submit" , class="btn btn-xs btn-primary " , value=" Guardar" , name="btnSave">
+            <i class="fa fa-user">Guardar</i>
+          </button>
+          <%= link_to '<span class="fa fa-user" ></span>  '.html_safe + " Cancelar", clients_path, :class => 'btn btn-xs btn-warning btx' %>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<script>
+    //>>>>>>>>>>>>>>>>>>>>>>> JQuery <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    $(document).ready(function () {
+//********************** Data Mask ***************************
+
+        $("#phon").mask("(99) 9999-9999");
+        $("#age").mask("99/99/9999")
+
+        jQuery(function ($) {
+            $("#phon").focusout(function () {
+                var valor = $(this).val();
+                valor = valor.replace("(", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace(")", "")
+                valor = valor.replace(" ", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("-", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+                valor = valor.replace("_", "")
+
+                if (valor.length < 10) {
+                    $("#phon").val("");
+                }
+            })
+        });
+    });
+</script>
